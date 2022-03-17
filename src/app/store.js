@@ -3,6 +3,14 @@ import appReducer from '../features/appSlice';
 
 export const store = configureStore({
   reducer: {
-    counter: appReducer,
+    app: appReducer,
   },
 });
+
+/* export const store = configureStore({
+  reducer: {
+    app: appReducer,
+  }
+})
+
+*/
